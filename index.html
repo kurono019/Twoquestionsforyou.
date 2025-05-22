@@ -83,7 +83,7 @@
     function respondYes() {
       const response = document.getElementById("response");
       response.innerText = "I'm really really glad to know that you're doing well po. I hope bad days will stay far away from you.";
-      response.style.display = "block";  // Show response
+      response.style.display = "block";  
       document.getElementById("first-buttons").style.display = "none";
       showSecondQuestion();
     }
@@ -91,7 +91,7 @@
     function respondNo() {
       const response = document.getElementById("response");
       response.innerText = "I'm sorry to hear that. I hope your days will become better as the year progresses. If you wanna talk about it, I'm here to lend an ear and give you whatever you need.";
-      response.style.display = "block";  // Show response
+      response.style.display = "block";  
       document.getElementById("first-buttons").style.display = "none";
       showSecondQuestion();
     }
@@ -105,7 +105,7 @@
 
       const birdResponse = document.getElementById("bird-response");
       birdResponse.innerText = birdMsg;
-      birdResponse.style.display = "block";  // Show bird message
+      birdResponse.style.display = "block";  
 
       document.getElementById("ITO NA").play();
     }
